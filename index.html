@@ -4,503 +4,359 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ngoako Malowa</title>
-        <!--Google fonts-->
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
- <!-- Font Awesome -->
-    <link rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Work+Sans:ital,wght@0,400;0,500;0,600;0,700;1,500&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 </head>
 <body>
-    <header>
-        <!-----Navigation------>
-        <nav>
 
-            <div class="logo">Ngoako<span>.</span>
-            </div>
+    <header>
+        <nav>
+            <div class="logo">NGOAKO<span>.</span></div>
 
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Skills</a></li>
-                <li><a href="#">Projects</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
             </ul>
+
+            <a href="#projects" class="nav-cta">Get In Touch</a>
         </nav>
+    </header>
 
-      </header>
-<!-----------Hero-------------->
-<section class="hero">
-    <div class="hero-text">
-        <p>Hello, I'm</p>
-        <h1>Ngoako Malowa</h1>
-        <h2>Sofware Developer & Data Engineering Enthusiast</h2>
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="home">
+        <div class="corner-mark corner-tl"></div>
+        <div class="corner-mark corner-tr"></div>
 
-        <p class="description">
-            Passionate about creating modern web applications,
-            cloud technologies, and solving real-world problems
-            through software.  
-        </p>
+        <div class="hero-text">
 
-        <div class="buttons">
-            <a href="#" class="btn">
-                View Projects
-            </a>
+            <p class="eyebrow"><span class="tick"></span> SOFTWARE DEVELOPER</p>
 
-            <a href="#" class="btn-outline">
-                Download CV
-            </a>    
-        </div>
-    </div>
-     <div class="hero-image">
+            <h1>NGOAKO<br>MALOWA</h1>
 
-        <img src="images/portfolio1.jpeg" alt="Profile Picture">
+            <div class="divider"></div>
 
-    </div>   
-</section>
-
-<!--================ ABOUT ================-->
-
-<section class="about" id="about">
-
-    <div class="about-image">
-        <img src="images/Portfolio pic.jpeg" alt="Ngoako Malowa">
-    </div>
-
-    <div class="about-content">
-
-        <h4>About Me</h4>
-
-        <h2>Building Software That Solves Real Problems</h2>
-
-        <p>
-            I'm a Computer Science graduate passionate about software
-            development, cloud technologies, and data engineering.
-            I enjoy building modern web applications, learning new
-            technologies, and creating solutions that make a real impact.
-        </p>
-
-        <p>
-            My goal is to become a skilled Software Engineer and Data
-            Engineer while continuously improving my technical and
-            problem-solving abilities.
-        </p>
-
-        <div class="about-info">
-
-            <div class="info-card">
-                <h3>4</h3>
-                <span>Projects</span>
-            </div>
-
-            <div class="info-card">
-                <h3>2</h3>
-                <span>Microsoft Certification</span>
-            </div>
-
-            <div class="info-card">
-                <h3>100%</h3>
-                <span>Passion</span>
-            </div>
-
-        </div>
-
-    </div>
-
-</section>
-
-<!--==================== SKILLS ====================-->
-
-<section class="skills" id="skills">
-
-    <div class="section-title">
-        <h4>Technical Skills</h4>
-        <h2>My Tech Stack</h2>
-        <p>
-            Technologies and tools I use to design, build and deploy
-            modern software applications.
-        </p>
-    </div>
-
-    <div class="skills-grid">
-
-        <!-- Languages -->
-        <div class="skill-box">
-
-            <h3>
-                <i class="fa-solid fa-code"></i>
-                Languages
-            </h3>
-
-            <div class="tech-list">
-
-                <span><i class="fa-brands fa-html5 html"></i> HTML</span>
-
-                <span><i class="fa-brands fa-css3-alt css"></i> CSS</span>
-
-                <span><i class="fa-brands fa-js js"></i> JavaScript</span>
-
-                <span><i class="fa-brands fa-java java"></i> Java</span>
-
-                <span><i class="fa-brands fa-python python"></i> Python</span>
-
-            </div>
-
-        </div>
-
-        <!-- Backend -->
-        <div class="skill-box">
-
-            <h3>
-                <i class="fa-solid fa-server"></i>
-                Backend
-            </h3>
-
-            <div class="tech-list">
-
-                <span><i class="fa-brands fa-node-js node"></i> Node.js</span>
-
-                <span><i class="fa-solid fa-gears express"></i> Express.js</span>
-
-            </div>
-
-        </div>
-
-        <!-- Database -->
-        <div class="skill-box">
-
-            <h3>
-                <i class="fa-solid fa-database"></i>
-                Databases
-            </h3>
-
-            <div class="tech-list">
-
-                <span><i class="fa-solid fa-leaf mongo"></i> MongoDB</span>
-
-                <span><i class="fa-solid fa-database mysql"></i> MySQL</span>
-
-                <span><i class="fa-solid fa-database postgres"></i> PostgreSQL</span>
-
-                <span><i class="fa-solid fa-table sql"></i> SQL</span>
-
-            </div>
-
-        </div>
-
-        <!-- Cloud -->
-        <div class="skill-box">
-
-            <h3>
-                <i class="fa-solid fa-cloud"></i>
-                Cloud
-            </h3>
-
-            <div class="tech-list">
-
-                <span><i class="fa-brands fa-microsoft azure"></i> Azure</span>
-
-                <span><i class="fa-solid fa-plug api"></i> REST APIs</span>
-
-            </div>
-
-        </div>
-
-        <!-- Tools -->
-        <div class="skill-box">
-
-            <h3>
-                <i class="fa-solid fa-screwdriver-wrench"></i>
-                Tools
-            </h3>
-
-            <div class="tech-list">
-
-                <span><i class="fa-brands fa-git-alt git"></i> Git</span>
-
-                <span><i class="fa-brands fa-github github"></i> GitHub</span>
-
-                <span><i class="fa-solid fa-paper-plane postman"></i> Postman</span>
-
-                <span><i class="fa-solid fa-laptop-code vscode"></i> Visual Studio</span>
-
-                <span><i class="fa-solid fa-code intellij"></i> IntelliJ IDEA</span>
-
-            </div>
-
-        </div>
-
-    </div>
-
-</section>
-
-<!--==================== EXPERIENCE ====================-->
-
-<section class="experience" id="experience">
-
-    <div class="section-title">
-        <h4>Experience</h4>
-        <h2>Professional Experience</h2>
-        <p>My journey as a software developer.</p>
-    </div>
-
-    <div class="experience-container">
-
-        <div class="experience-card">
-
-            <div class="experience-header">
-
-                <div>
-                    <h3>Full-Stack Developer Intern</h3>
-                    <h4>Future Interns</h4>
-                </div>
-
-                <span>July 2026 - Present</span>
-
-            </div>
-
-            <p class="experience-description">
-                Working on a full-stack event management platform called
-                <strong>EvEntry</strong>, focused on creating seamless event
-                registration and attendee management experiences.
+            <p class="description">
+                Passionate about creating modern web applications,
+                cloud technologies, and solving real-world problems
+                through software.
             </p>
 
-            <ul>
+            <div class="buttons">
+                <a href="#projects" class="btn">VIEW PROJECTS</a>
+                <a href="#" class="btn-outline">DOWNLOAD CV</a>
+            </div>
+        </div>
 
-                <li>
-                    Developed responsive interfaces using HTML, CSS and JavaScript.
-                </li>
+        <div class="hero-image">
+            <div class="frame">
+                <img src="images/portfolio1.jpeg" alt="Profile Picture">
+            </div>
+        </div>
+    </section>
 
-                <li>
-                    Implemented user authentication and event booking functionality.
-                </li>
+    <!-- ============ ABOUT ============ -->
+    <section class="about" id="about">
 
-                <li>
-                    Integrated databases to manage events and registrations.
-                </li>
+        <div class="about-image">
+            <div class="frame">
+                <img src="images/Portfolio pic.jpeg" alt="Ngoako Malowa">
+            </div>
+        </div>
 
-                <li>
-                    Collaborated using Git and GitHub in an Agile environment.
-                </li>
+        <div class="about-content">
 
-            </ul>
+            <p class="eyebrow"><span class="tick"></span> ABOUT ME</p>
 
-            <div class="experience-tech">
+            <h2>Building Software That Solves Real Problems</h2>
 
-                <span>HTML</span>
-                <span>CSS</span>
-                <span>JavaScript</span>
-                <span>Node.js</span>
-                <span>MongoDB</span>
-                <span>Git</span>
+            <p>
+                I'm a Computer Science graduate passionate about software
+                development, cloud technologies, and data engineering.
+                I enjoy building modern web applications, learning new
+                technologies, and creating solutions that make a real impact.
+            </p>
+
+            <p>
+                My goal is to become a skilled Software Engineer and Data
+                Engineer while continuously improving my technical and
+                problem-solving abilities.
+            </p>
+
+            <div class="about-info">
+
+                <div class="info-card">
+                    <h3>04</h3>
+                    <span>Projects</span>
+                </div>
+
+                <div class="info-card">
+                    <h3>02</h3>
+                    <span>Microsoft Certifications</span>
+                </div>
+
+                <div class="info-card">
+                    <h3>100%</h3>
+                    <span>Passion</span>
+                </div>
 
             </div>
 
         </div>
 
-    </div>
+    </section>
 
-</section>
- 
-<!--==================== PROJECTS ====================-->
+    <!-- ============ SKILLS ============ -->
+    <section class="skills" id="skills">
 
-<section class="projects" id="projects">
+        <div class="section-title">
+            <p class="eyebrow center"><span class="tick"></span> TECH STACK</p>
+            <h2>My Tools of the Trade</h2>
+            <p class="sub">
+                Technologies and tools I use to design, build and deploy
+                modern software applications.
+            </p>
+        </div>
 
-    <div class="section-title">
-        <h4>Portfolio</h4>
-        <h2>Featured Projects</h2>
-        <p>
-            Some of the software solutions I've built using modern
-            web technologies.
-        </p>
-    </div>
+        <div class="skills-grid">
 
-    <div class="project-grid">
+            <!-- Languages -->
+            <div class="skill-box">
+                <span class="skill-num">01</span>
+                <h3><i class="fa-solid fa-code"></i> Languages</h3>
+                <div class="tech-list">
+                    <span><i class="fa-brands fa-html5 html"></i> HTML</span>
+                    <span><i class="fa-brands fa-css3-alt css"></i> CSS</span>
+                    <span><i class="fa-brands fa-js js"></i> JavaScript</span>
+                    <span><i class="fa-brands fa-java java"></i> Java</span>
+                    <span><i class="fa-brands fa-python python"></i> Python</span>
+                </div>
+            </div>
 
-        <!-- EvEntry -->
+            <!-- Backend -->
+            <div class="skill-box">
+                <span class="skill-num">02</span>
+                <h3><i class="fa-solid fa-server"></i> Backend</h3>
+                <div class="tech-list">
+                    <span><i class="fa-brands fa-node-js node"></i> Node.js</span>
+                    <span><i class="fa-solid fa-gears express"></i> Express.js</span>
+                </div>
+            </div>
 
-        <div class="project-card">
+            <!-- Database -->
+            <div class="skill-box">
+                <span class="skill-num">03</span>
+                <h3><i class="fa-solid fa-database"></i> Databases</h3>
+                <div class="tech-list">
+                    <span><i class="fa-solid fa-leaf mongo"></i> MongoDB</span>
+                    <span><i class="fa-solid fa-database mysql"></i> MySQL</span>
+                    <span><i class="fa-solid fa-database postgres"></i> PostgreSQL</span>
+                    <span><i class="fa-solid fa-table sql"></i> SQL</span>
+                </div>
+            </div>
 
-            <img src="images/eventry.png" alt="EvEntry">
+            <!-- Cloud -->
+            <div class="skill-box">
+                <span class="skill-num">04</span>
+                <h3><i class="fa-solid fa-cloud"></i> Cloud</h3>
+                <div class="tech-list">
+                    <span><i class="fa-brands fa-microsoft azure"></i> Azure</span>
+                    <span><i class="fa-solid fa-plug api"></i> REST APIs</span>
+                </div>
+            </div>
 
-            <div class="project-content">
+            <!-- Tools -->
+            <div class="skill-box">
+                <span class="skill-num">05</span>
+                <h3><i class="fa-solid fa-screwdriver-wrench"></i> Tools</h3>
+                <div class="tech-list">
+                    <span><i class="fa-brands fa-git-alt git"></i> Git</span>
+                    <span><i class="fa-brands fa-github github"></i> GitHub</span>
+                    <span><i class="fa-solid fa-paper-plane postman"></i> Postman</span>
+                    <span><i class="fa-solid fa-laptop-code vscode"></i> Visual Studio</span>
+                    <span><i class="fa-solid fa-code intellij"></i> IntelliJ IDEA</span>
+                </div>
+            </div>
 
-                <h3>
-                    <i class="fa-solid fa-calendar-check"></i>
-                    EvEntry
-                </h3>
+        </div>
 
-                <p>
-                    A modern event management platform that allows users to
-                    create, book and manage events.
+    </section>
+
+    <!-- ============ EXPERIENCE ============ -->
+    <section class="experience" id="experience">
+
+        <div class="section-title">
+            <p class="eyebrow center"><span class="tick"></span> EXPERIENCE</p>
+            <h2>Professional Experience</h2>
+            <p class="sub">My journey as a software developer.</p>
+        </div>
+
+        <div class="experience-container">
+
+            <div class="experience-card">
+
+                <div class="experience-header">
+                    <div>
+                        <h3>Full-Stack Developer Intern</h3>
+                        <h4>Future Interns</h4>
+                    </div>
+                    <span class="date-tag">JUL 2026 &mdash; PRESENT</span>
+                </div>
+
+                <p class="experience-description">
+                    Working on a full-stack event management platform called
+                    <strong>EvEntry</strong>, focused on creating seamless event
+                    registration and attendee management experiences.
                 </p>
 
-                <div class="project-tech">
+                <ul>
+                    <li>Developed responsive interfaces using HTML, CSS and JavaScript.</li>
+                    <li>Implemented user authentication and event booking functionality.</li>
+                    <li>Integrated databases to manage events and registrations.</li>
+                    <li>Collaborated using Git and GitHub in an Agile environment.</li>
+                </ul>
 
+                <div class="experience-tech">
                     <span>HTML</span>
                     <span>CSS</span>
                     <span>JavaScript</span>
                     <span>Node.js</span>
                     <span>MongoDB</span>
-
-                </div>
-
-                <div class="project-links">
-
-                    <a href="#">
-                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                        Live Demo
-                    </a>
-
-                    <a href="#">
-                        <i class="fa-brands fa-github"></i>
-                        GitHub
-                    </a>
-
+                    <span>Git</span>
                 </div>
 
             </div>
 
         </div>
 
-        <!-- MedLink -->
+    </section>
 
-        <div class="project-card">
+    <!-- ============ PROJECTS ============ -->
+    <section class="projects" id="projects">
 
-            <img src="images/medlink.png" alt="MedLink">
+        <div class="section-title">
+            <p class="eyebrow center"><span class="tick"></span> PORTFOLIO</p>
+            <h2>Featured Projects</h2>
+            <p class="sub">
+                Some of the software solutions I've built using modern
+                web technologies.
+            </p>
+        </div>
 
-            <div class="project-content">
+        <div class="project-grid">
 
-                <h3>
-                    <i class="fa-solid fa-heart-pulse"></i>
-                    MedLink
-                </h3>
-
-                <p>
-                    Full-stack healthcare networking platform connecting
-                    students and healthcare professionals.
-                </p>
-
-                <div class="project-tech">
-
-                    <span>React</span>
-                    <span>Node.js</span>
-                    <span>Express</span>
-                    <span>MongoDB</span>
-
+            <!-- EvEntry -->
+            <div class="project-card">
+                <div class="project-img-wrap">
+                    <img src="images/eventry.png" alt="EvEntry">
+                    <span class="project-num">01</span>
                 </div>
-
-                <div class="project-links">
-
-                    <a href="#">
-                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                        Live Demo
-                    </a>
-
-                    <a href="#">
-                        <i class="fa-brands fa-github"></i>
-                        GitHub
-                    </a>
-
+                <div class="project-content">
+                    <h3><i class="fa-solid fa-calendar-check"></i> EvEntry</h3>
+                    <p>
+                        A modern event management platform that allows users to
+                        create, book and manage events.
+                    </p>
+                    <div class="project-tech">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                        <span>Node.js</span>
+                        <span>MongoDB</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo</a>
+                        <a href="#"><i class="fa-brands fa-github"></i> GitHub</a>
+                    </div>
                 </div>
+            </div>
 
+            <!-- MedLink -->
+            <div class="project-card">
+                <div class="project-img-wrap">
+                    <img src="images/medlink.png" alt="MedLink">
+                    <span class="project-num">02</span>
+                </div>
+                <div class="project-content">
+                    <h3><i class="fa-solid fa-heart-pulse"></i> MedLink</h3>
+                    <p>
+                        Full-stack healthcare networking platform connecting
+                        students and healthcare professionals.
+                    </p>
+                    <div class="project-tech">
+                        <span>React</span>
+                        <span>Node.js</span>
+                        <span>Express</span>
+                        <span>MongoDB</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo</a>
+                        <a href="#"><i class="fa-brands fa-github"></i> GitHub</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- UniCare -->
+            <div class="project-card">
+                <div class="project-img-wrap">
+                    <img src="images/Unicare.png" alt="UniCare">
+                    <span class="project-num">03</span>
+                </div>
+                <div class="project-content">
+                    <h3><i class="fa-solid fa-hospital"></i> UniCare</h3>
+                    <p>
+                        Healthcare management application for patient records,
+                        prescriptions and appointments.
+                    </p>
+                    <div class="project-tech">
+                        <span>Java</span>
+                        <span>REST API</span>
+                        <span>PostgreSQL</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo</a>
+                        <a href="#"><i class="fa-brands fa-github"></i> GitHub</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- VationFitness -->
+            <div class="project-card">
+                <div class="project-img-wrap">
+                    <img src="images/vationfitness.png" alt="VationFitness">
+                    <span class="project-num">04</span>
+                </div>
+                <div class="project-content">
+                    <h3><i class="fa-solid fa-dumbbell"></i> VationFitness</h3>
+                    <p>
+                        Responsive e-commerce website for selling gym equipment
+                        with a modern shopping experience.
+                    </p>
+                    <div class="project-tech">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo</a>
+                        <a href="#"><i class="fa-brands fa-github"></i> GitHub</a>
+                    </div>
+                </div>
             </div>
 
         </div>
 
-        <!-- UniCare -->
+    </section>
 
-        <div class="project-card">
-
-            <img src="images/unicare.png" alt="UniCare">
-
-            <div class="project-content">
-
-                <h3>
-                    <i class="fa-solid fa-hospital"></i>
-                    UniCare
-                </h3>
-
-                <p>
-                    Healthcare management application for patient records,
-                    prescriptions and appointments.
-                </p>
-
-                <div class="project-tech">
-
-                    <span>Java</span>
-                    <span>REST API</span>
-                    <span>PostgreSQL</span>
-
-                </div>
-
-                <div class="project-links">
-
-                    <a href="#">
-                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                        Live Demo
-                    </a>
-
-                    <a href="#">
-                        <i class="fa-brands fa-github"></i>
-                        GitHub
-                    </a>
-
-                </div>
-
-            </div>
-
-        </div>
-
-        <!-- VationFitness -->
-
-        <div class="project-card">
-
-            <img src="images/vationfitness.png" alt="VationFitness">
-
-            <div class="project-content">
-
-                <h3>
-                    <i class="fa-solid fa-dumbbell"></i>
-                    VationFitness
-                </h3>
-
-                <p>
-                    Responsive e-commerce website for selling gym equipment
-                    with a modern shopping experience.
-                </p>
-
-                <div class="project-tech">
-
-                    <span>HTML</span>
-                    <span>CSS</span>
-                    <span>JavaScript</span>
-
-                </div>
-
-                <div class="project-links">
-
-                    <a href="#">
-                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                        Live Demo
-                    </a>
-
-                    <a href="#">
-                        <i class="fa-brands fa-github"></i>
-                        GitHub
-                    </a>
-
-                </div>
-
-            </div>
-
-        </div>
-
-    </div>
-
-</section>
+    <footer class="site-footer">
+        <p>&copy; 2026 NGOAKO MALOWA &mdash; BUILT FROM SCRATCH</p>
+    </footer>
 
 </body>
 </html>
