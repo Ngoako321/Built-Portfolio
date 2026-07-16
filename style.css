@@ -325,6 +325,60 @@ nav ul a:hover{ color:var(--rust); }
 }
 
 /* ============================================================
+   SOCIAL LINKS
+   ============================================================ */
+
+.social-links{
+    display:flex;
+    align-items:center;
+    gap:18px;
+    margin-top:35px;
+    flex-wrap:wrap;
+}
+
+.social-links a{
+    width:52px;
+    height:52px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    background:var(--panel);
+    border:1px solid var(--border);
+    border-radius:8px;
+
+    color:var(--text);
+    text-decoration:none;
+    font-size:20px;
+
+    transition:
+        background .3s ease,
+        border-color .3s ease,
+        color .3s ease,
+        transform .3s ease,
+        box-shadow .3s ease;
+}
+
+.social-links a:hover{
+    background:var(--rust);
+    color:var(--bg);
+    border-color:var(--rust);
+
+    transform:translateY(-6px);
+
+    box-shadow:0 12px 24px rgba(193,80,46,.25);
+}
+
+.social-links a:active{
+    transform:translateY(-2px);
+}
+
+.social-links a:focus-visible{
+    outline:2px solid var(--rust);
+    outline-offset:4px;
+}
+
+/* ============================================================
    SECTION TITLE (shared)
    ============================================================ */
 .section-title{
@@ -638,6 +692,61 @@ nav ul a:hover{ color:var(--rust); }
 
 .project-links i{ margin-right:6px; }
 
+
+/* ============================================================
+   CONTACT
+   ============================================================ */
+
+.contact{
+    padding:120px 6%;
+    border-top:1px solid var(--border);
+    border-bottom:1px solid var(--border);
+}
+
+.contact-container{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:1px;
+    margin-top:60px;
+    background:var(--border);
+}
+
+.contact-card{
+    background:var(--panel);
+    padding:45px 30px;
+    text-align:center;
+    transition:.3s;
+}
+
+.contact-card:hover{
+    background:var(--panel-2);
+    transform:translateY(-8px);
+}
+
+.contact-card i{
+    font-size:38px;
+    color:var(--rust);
+    margin-bottom:20px;
+}
+
+.contact-card h3{
+    font-family:var(--display);
+    font-size:22px;
+    margin-bottom:15px;
+}
+
+.contact-card a{
+    color:var(--text-muted);
+    text-decoration:none;
+    transition:.3s;
+    word-break:break-word;
+}
+
+.contact-card a:hover{
+    color:var(--rust);
+}
+
+
 /* ============================================================
    FOOTER
    ============================================================ */
@@ -686,4 +795,109 @@ a:focus-visible, button:focus-visible{
     .btn, .btn-outline{ text-align:center; }
     .section-title h2{ font-size:28px; }
     .hero-text h1{ font-size:40px; }
+}
+
+/* ============================================================
+   JAVASCRIPT ANIMATIONS
+   ============================================================ */
+
+.hidden{
+    opacity:0;
+    transform:translateY(50px);
+    transition:
+        opacity .8s ease,
+        transform .8s ease;
+}
+
+.show{
+    opacity:1;
+    transform:translateY(0);
+}
+
+/* Active navigation */
+
+nav ul a.active{
+
+    color:var(--rust);
+
+}
+
+/* Progress bar */
+
+.progress-bar{
+
+    position:fixed;
+
+    top:0;
+
+    left:0;
+
+    width:0;
+
+    height:4px;
+
+    background:var(--rust);
+
+    z-index:9999;
+
+}
+
+/* Scroll button */
+
+.scroll-top{
+
+    position:fixed;
+
+    right:30px;
+
+    bottom:30px;
+
+    width:55px;
+
+    height:55px;
+
+    border:none;
+
+    background:var(--rust);
+
+    color:white;
+
+    cursor:pointer;
+
+    font-size:18px;
+
+    opacity:0;
+
+    visibility:hidden;
+
+    transform:translateY(20px);
+
+    transition:.3s;
+
+}
+
+.show-top{
+
+    opacity:1;
+
+    visibility:visible;
+
+    transform:translateY(0);
+
+}
+
+.scroll-top:hover{
+
+    background:var(--bone);
+
+    color:var(--bg);
+
+}
+
+/* Navbar */
+
+header.scrolled{
+
+    box-shadow:0 8px 30px rgba(0,0,0,.35);
+
 }
